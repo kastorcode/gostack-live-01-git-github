@@ -4,9 +4,9 @@ const express = require('express')
 const app = express()
 
 
-app.get('/teste2', (req, res) => {
+app.get('/teste3', (req, res) => {
 	return res.json({
-		message: 'Hello World 2!'
+		message: 'Hello World 3!'
 	})
 })
 
