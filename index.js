@@ -6,7 +6,7 @@ const app = express()
 
 app.get('/teste', (req, res) => {
 	return res.json({
-		message: 'Hello World!'
+		message: 'Hello World 2!'
 	})
 })
 
